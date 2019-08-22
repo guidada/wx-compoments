@@ -1,0 +1,32 @@
+
+  <scroll-view scroll-x  class="swiper-tab" scroll-into-view="{{index}}">
+     <view class="scroll-view">
+        <view> 
+          <view class="scroll-view-item">
+                关注
+          </view>
+          <view class="scroll-view-item">
+                新闻
+          </view>
+          <view class="scroll-view-item">
+                娱乐
+          </view>
+          <view class="scroll-view-item">
+                热点
+          </view>
+          <view class="scroll-view-item">
+                体育
+          </view>
+          <view class="scroll-view-item" >
+                军事
+          </view>
+          <view class="scroll-view-item" id="{{index}}">
+                其他
+          </view>
+        </view>
+     </view>
+  </scroll-view>
+
+ <utoast time="1000" type="info" show="true" text="成功"></utoast>
+
+ <button bindtap="toast">点击</button>

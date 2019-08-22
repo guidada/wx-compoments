@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "utoast": "../componets/toast/toast"
+  }
+}

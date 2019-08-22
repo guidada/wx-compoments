@@ -1,0 +1,10 @@
+<!--componets/toast/toast.wxml-->
+<view>
+ <view style="background:{{info.background}}" class="toast animated {{action}}">
+       <image src="{{info.icon}}" class="icon">
+       </image>
+       <view class="text" style="color:{{info.color}}">
+         {{text}}
+       </view>
+  </view>
+</view>
